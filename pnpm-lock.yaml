@@ -749,17 +749,17 @@ packages:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
 
-  '@grpc/grpc-js@1.9.0':
-    resolution: {integrity: sha512-H8+iZh+kCE6VR/Krj6W28Y/ZlxoZ1fOzsNt77nrdE3knkbSelW1Uus192xOFCxHyeszLj8i4APQkSIXjAoOxXg==}
-    engines: {node: ^8.13.0 || >=10.10.0}
+  '@grpc/grpc-js@1.11.2':
+    resolution: {integrity: sha512-DWp92gDD7/Qkj7r8kus6/HCINeo3yPZWZ3paKgDgsbKbSpoxKg1yvN8xe2Q8uE3zOsPe3bX8FQX2+XValq2yTw==}
+    engines: {node: '>=12.10.0'}
 
   '@grpc/proto-loader@0.6.13':
     resolution: {integrity: sha512-FjxPYDRTn6Ec3V0arm1FtSpmP6V50wuph2yILpyvTKzjc76oDdoihXqM1DzOW5ubvCC8GivfCnNtfaRE8myJ7g==}
     engines: {node: '>=6'}
     hasBin: true
 
-  '@grpc/proto-loader@0.7.8':
-    resolution: {integrity: sha512-GU12e2c8dmdXb7XUlOgYWZ2o2i+z9/VeACkxTA/zzAe2IjclC5PnVL0lpgjhrqfpDYHzM8B1TF6pqWegMYAzlA==}
+  '@grpc/proto-loader@0.7.13':
+    resolution: {integrity: sha512-AiXO/bfe9bmxBjxxtYxFAXGZvMaN5s8kO+jBHAJCON8rJoB5YS/D6X7ZNc6XQkuHNmyl4CYaMI1fJ/Gn27RGGw==}
     engines: {node: '>=6'}
     hasBin: true
 
@@ -821,6 +821,9 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
+
+  '@js-sdsl/ordered-map@4.4.2':
+    resolution: {integrity: sha512-iUKgm52T8HOE/makSxjqoWhe95ZJA1/G1sYsGev2JDKUSS14KAgg1LHb+Ba+IPow0xflbnSkOsZcO08C7w1gYw==}
 
   '@js-temporal/polyfill@0.4.4':
     resolution: {integrity: sha512-2X6bvghJ/JAoZO52lbgyAPFj8uCflhTo2g7nkFzEQdXd/D8rEeD4HtmTEpmtGCva260fcd66YNXBOYdnmHqSOg==}
@@ -3822,8 +3825,8 @@ packages:
     resolution: {integrity: sha512-xL96WDdCZYdU7Slin569tFX712BxsxslWwAfAhCYjQKGTq7dAU91Lomy6nLLhh/dyGhk/YH4TwTSRxTzhuHyZg==}
     hasBin: true
 
-  protobufjs@7.2.4:
-    resolution: {integrity: sha512-AT+RJgD2sH8phPmCf7OUZR8xGdcJRga4+1cOaXJ64hvcSkVhNcRHOwIxUatPH15+nj59WAGTDv3LSGZPEQbJaQ==}
+  protobufjs@7.4.0:
+    resolution: {integrity: sha512-mRUWCc3KUU4w1jU8sGxICXH/gNS94DvI1gxqDvBzhj1JpcsimQkYiOJfwsPUykUI5ZaspFbSgmBLER8IrQ3tqw==}
     engines: {node: '>=12.0.0'}
 
   pump@3.0.0:
@@ -5380,10 +5383,10 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@grpc/grpc-js@1.9.0':
+  '@grpc/grpc-js@1.11.2':
     dependencies:
-      '@grpc/proto-loader': 0.7.8
-      '@types/node': 18.16.0
+      '@grpc/proto-loader': 0.7.13
+      '@js-sdsl/ordered-map': 4.4.2
 
   '@grpc/proto-loader@0.6.13':
     dependencies:
@@ -5393,12 +5396,11 @@ snapshots:
       protobufjs: 6.11.3
       yargs: 16.2.0
 
-  '@grpc/proto-loader@0.7.8':
+  '@grpc/proto-loader@0.7.13':
     dependencies:
-      '@types/long': 4.0.2
       lodash.camelcase: 4.3.0
-      long: 4.0.0
-      protobufjs: 7.2.4
+      long: 5.2.3
+      protobufjs: 7.4.0
       yargs: 17.7.2
 
   '@hookform/resolvers@3.1.0(react-hook-form@7.43.9(react@18.2.0))':
@@ -5460,6 +5462,8 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
+
+  '@js-sdsl/ordered-map@4.4.2': {}
 
   '@js-temporal/polyfill@0.4.4':
     dependencies:
@@ -5639,7 +5643,7 @@ snapshots:
 
   '@opentelemetry/exporter-trace-otlp-grpc@0.31.0(@opentelemetry/api@1.1.0)':
     dependencies:
-      '@grpc/grpc-js': 1.9.0
+      '@grpc/grpc-js': 1.11.2
       '@grpc/proto-loader': 0.6.13
       '@opentelemetry/api': 1.1.0
       '@opentelemetry/core': 1.5.0(@opentelemetry/api@1.1.0)
@@ -5655,7 +5659,7 @@ snapshots:
 
   '@opentelemetry/otlp-grpc-exporter-base@0.31.0(@opentelemetry/api@1.1.0)':
     dependencies:
-      '@grpc/grpc-js': 1.9.0
+      '@grpc/grpc-js': 1.11.2
       '@grpc/proto-loader': 0.6.13
       '@opentelemetry/api': 1.1.0
       '@opentelemetry/core': 1.5.0(@opentelemetry/api@1.1.0)
@@ -9346,7 +9350,7 @@ snapshots:
       '@types/node': 18.16.0
       long: 4.0.0
 
-  protobufjs@7.2.4:
+  protobufjs@7.4.0:
     dependencies:
       '@protobufjs/aspromise': 1.1.2
       '@protobufjs/base64': 1.1.2
