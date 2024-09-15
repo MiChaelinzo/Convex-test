@@ -2213,8 +2213,8 @@ packages:
     resolution: {integrity: sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==}
     engines: {node: '>=8'}
 
-  ejs@3.1.9:
-    resolution: {integrity: sha512-rC+QVNMJWv+MtPgkt0y+0rVEIdbtxVADApW9JXrUVlzHetgcyczP/E7DJmWJ4fJCZF2cPcBk0laWO9ZHMG3DmQ==}
+  ejs@3.1.10:
+    resolution: {integrity: sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==}
     engines: {node: '>=0.10.0'}
     hasBin: true
 
@@ -5569,7 +5569,7 @@ snapshots:
       clean-stack: 3.0.1
       cli-progress: 3.12.0
       debug: 4.3.4(supports-color@8.1.1)
-      ejs: 3.1.9
+      ejs: 3.1.10
       fs-extra: 9.1.0
       get-package-type: 0.1.0
       globby: 11.1.0
@@ -7265,7 +7265,7 @@ snapshots:
     dependencies:
       is-obj: 2.0.0
 
-  ejs@3.1.9:
+  ejs@3.1.10:
     dependencies:
       jake: 10.8.7
 
