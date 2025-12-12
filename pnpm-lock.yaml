@@ -13,7 +13,7 @@ importers:
         version: 3.1.0(react-hook-form@7.43.9(react@18.2.0))
       '@next-auth/prisma-adapter':
         specifier: ^1.0.6
-        version: 1.0.6(@prisma/client@4.13.0(prisma@4.13.0))(next-auth@4.24.12(next@15.4.9(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@7.0.11)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
+        version: 1.0.6(@prisma/client@4.13.0(prisma@4.13.0))(next-auth@4.24.12(next@15.4.10(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@7.0.11)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
       '@prisma/client':
         specifier: ^4.13.0
         version: 4.13.0(prisma@4.13.0)
@@ -138,17 +138,17 @@ importers:
         specifier: ^0.92.0
         version: 0.92.0(prop-types@15.8.1)(react@18.2.0)
       next:
-        specifier: 15.4.9
-        version: 15.4.9(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        specifier: 15.4.10
+        version: 15.4.10(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next-auth:
         specifier: 4.24.12
-        version: 4.24.12(next@15.4.9(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@7.0.11)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 4.24.12(next@15.4.10(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@7.0.11)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next-contentlayer:
         specifier: ^0.3.1
-        version: 0.3.1(esbuild@0.18.20)(next@15.4.9(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 0.3.1(esbuild@0.18.20)(next@15.4.10(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next-themes:
         specifier: ^0.2.1
-        version: 0.2.1(next@15.4.9(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 0.2.1(next@15.4.10(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       node-mocks-http:
         specifier: ^1.12.2
         version: 1.12.2
@@ -1012,8 +1012,8 @@ packages:
       '@prisma/client': '>=2.26.0 || >=3'
       next-auth: ^4
 
-  '@next/env@15.4.9':
-    resolution: {integrity: sha512-OYR0RulK5phnbxxzcLE4/ECgfx1PL3EHrDbjyelJ7jauaO+/Qvj5gG8JPMltB51CygC2KrZ0aAfYLjPYjYY17A==}
+  '@next/env@15.4.10':
+    resolution: {integrity: sha512-knhmoJ0Vv7VRf6pZEPSnciUG1S4bIhWx+qTYBW/AjxEtlzsiNORPk8sFDCEvqLfmKuey56UB9FL1UdHEV3uBrg==}
 
   '@next/eslint-plugin-next@13.0.0':
     resolution: {integrity: sha512-z+gnX4Zizatqatc6f4CQrcC9oN8Us3Vrq/OLyc98h7K/eWctrnV91zFZodmJHUjx0cITY8uYM7LXD7IdYkg3kg==}
@@ -3725,8 +3725,8 @@ packages:
       react: '*'
       react-dom: '*'
 
-  next@15.4.9:
-    resolution: {integrity: sha512-/NedNmbiH4Umt/7SohT9VKxEdBt02Lj33xHrukE7d8Li6juT+75sEq4a4U06jggrvdbklKgr78OZEyWZ8XRrtw==}
+  next@15.4.10:
+    resolution: {integrity: sha512-itVlc79QjpKMFMRhP+kbGKaSG/gZM6RCvwhEbwmCNF06CdDiNaoHcbeg0PqkEa2GOcn8KJ0nnc7+yL7EjoYLHQ==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
     hasBin: true
     peerDependencies:
@@ -5897,12 +5897,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@next-auth/prisma-adapter@1.0.6(@prisma/client@4.13.0(prisma@4.13.0))(next-auth@4.24.12(next@15.4.9(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@7.0.11)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))':
+  '@next-auth/prisma-adapter@1.0.6(@prisma/client@4.13.0(prisma@4.13.0))(next-auth@4.24.12(next@15.4.10(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@7.0.11)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))':
     dependencies:
       '@prisma/client': 4.13.0(prisma@4.13.0)
-      next-auth: 4.24.12(next@15.4.9(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@7.0.11)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      next-auth: 4.24.12(next@15.4.10(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@7.0.11)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
 
-  '@next/env@15.4.9': {}
+  '@next/env@15.4.10': {}
 
   '@next/eslint-plugin-next@13.0.0':
     dependencies:
@@ -9380,13 +9380,13 @@ snapshots:
 
   negotiator@0.6.3: {}
 
-  next-auth@4.24.12(next@15.4.9(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@7.0.11)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  next-auth@4.24.12(next@15.4.10(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(nodemailer@7.0.11)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       '@babel/runtime': 7.28.4
       '@panva/hkdf': 1.2.1
       cookie: 0.7.2
       jose: 4.15.9
-      next: 15.4.9(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      next: 15.4.10(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       oauth: 0.9.15
       openid-client: 5.7.1
       preact: 10.27.2
@@ -9397,11 +9397,11 @@ snapshots:
     optionalDependencies:
       nodemailer: 7.0.11
 
-  next-contentlayer@0.3.1(esbuild@0.18.20)(next@15.4.9(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  next-contentlayer@0.3.1(esbuild@0.18.20)(next@15.4.10(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       '@contentlayer/core': 0.3.1(esbuild@0.18.20)
       '@contentlayer/utils': 0.3.1
-      next: 15.4.9(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      next: 15.4.10(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
@@ -9410,15 +9410,15 @@ snapshots:
       - markdown-wasm
       - supports-color
 
-  next-themes@0.2.1(next@15.4.9(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  next-themes@0.2.1(next@15.4.10(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
-      next: 15.4.9(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      next: 15.4.10(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
-  next@15.4.9(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  next@15.4.10(@babel/core@7.22.9)(@opentelemetry/api@1.1.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
-      '@next/env': 15.4.9
+      '@next/env': 15.4.10
       '@swc/helpers': 0.5.15
       caniuse-lite: 1.0.30001760
       postcss: 8.4.31
