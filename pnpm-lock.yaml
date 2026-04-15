@@ -2838,10 +2838,9 @@ packages:
   flatted@3.4.2:
     resolution: {integrity: sha512-PjDse7RzhcPkIJwy5t7KPWQSZ9cAbzQXcafsetQoD7sOJRQlGikNbx7yZp2OotDnJyrDcbyRq3Ttb18iYOqkxA==}
 
-  follow-redirects@1.15.8:
-    resolution: {integrity: sha512-xgrmBhBToVKay1q2Tao5LI26B83UhrB/vM1avwVSDzt8rx3rO6AizBAaF46EgksTVr+rFTQaqZZ9MVBfUe4nig==}
+  follow-redirects@1.16.0:
+    resolution: {integrity: sha512-y5rN/uOsadFT/JfYwhxRS5R7Qce+g3zG97+JrtFZlC9klX/W5hD7iiLzScI4nZqUS7DNUdhPgw4xI8W2LuXlUw==}
     engines: {node: '>=4.0'}
-    deprecated: Browser detection issues fixed in v1.15.9
     peerDependencies:
       debug: '*'
     peerDependenciesMeta:
@@ -7535,13 +7534,13 @@ snapshots:
 
   axios@0.25.0:
     dependencies:
-      follow-redirects: 1.15.8
+      follow-redirects: 1.16.0
     transitivePeerDependencies:
       - debug
 
   axios@0.26.1:
     dependencies:
-      follow-redirects: 1.15.8
+      follow-redirects: 1.16.0
     transitivePeerDependencies:
       - debug
 
@@ -8564,7 +8563,7 @@ snapshots:
 
   flatted@3.4.2: {}
 
-  follow-redirects@1.15.8: {}
+  follow-redirects@1.16.0: {}
 
   for-each@0.3.3:
     dependencies:
