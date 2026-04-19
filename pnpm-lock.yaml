@@ -4290,12 +4290,12 @@ packages:
   property-information@6.2.0:
     resolution: {integrity: sha512-kma4U7AFCTwpqq5twzC1YVIDXSqg6qQK6JN0smOw8fgRy1OkMi0CYSzFmsy6dnqSenamAtj0CyXMUJ1Mf6oROg==}
 
-  protobufjs@6.11.4:
-    resolution: {integrity: sha512-5kQWPaJHi1WoCpjTGszzQ32PG2F4+wRY6BmAT4Vfw56Q2FZ4YZzK20xUYQH4YkfehY1e6QSICrJquM6xXZNcrw==}
+  protobufjs@6.11.5:
+    resolution: {integrity: sha512-OKjVH3hDoXdIZ/s5MLv8O2X0s+wOxGfV7ar6WFSKGaSAxi/6gYn3px5POS4vi+mc/0zCOdL7Jkwrj0oT1Yst2A==}
     hasBin: true
 
-  protobufjs@7.4.0:
-    resolution: {integrity: sha512-mRUWCc3KUU4w1jU8sGxICXH/gNS94DvI1gxqDvBzhj1JpcsimQkYiOJfwsPUykUI5ZaspFbSgmBLER8IrQ3tqw==}
+  protobufjs@7.5.5:
+    resolution: {integrity: sha512-3wY1AxV+VBNW8Yypfd1yQY9pXnqTAN+KwQxL8iYm3/BjKYMNg4i0owhEe26PWDOMaIrzeeF98Lqd5NGz4omiIg==}
     engines: {node: '>=12.0.0'}
 
   proxy-addr@2.0.7:
@@ -5987,14 +5987,14 @@ snapshots:
       '@types/long': 4.0.2
       lodash.camelcase: 4.3.0
       long: 4.0.0
-      protobufjs: 6.11.4
+      protobufjs: 6.11.5
       yargs: 16.2.0
 
   '@grpc/proto-loader@0.7.13':
     dependencies:
       lodash.camelcase: 4.3.0
       long: 5.2.3
-      protobufjs: 7.4.0
+      protobufjs: 7.5.5
       yargs: 17.7.2
 
   '@hono/node-server@1.19.13(hono@4.12.14)':
@@ -10281,7 +10281,7 @@ snapshots:
 
   property-information@6.2.0: {}
 
-  protobufjs@6.11.4:
+  protobufjs@6.11.5:
     dependencies:
       '@protobufjs/aspromise': 1.1.2
       '@protobufjs/base64': 1.1.2
@@ -10297,7 +10297,7 @@ snapshots:
       '@types/node': 18.16.0
       long: 4.0.0
 
-  protobufjs@7.4.0:
+  protobufjs@7.5.5:
     dependencies:
       '@protobufjs/aspromise': 1.1.2
       '@protobufjs/base64': 1.1.2
